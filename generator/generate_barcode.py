@@ -11,7 +11,7 @@ def generar_codigo(nombre_archivo: str, datos: str, carpeta: str = "barcodes"):
     code_class = barcode.get_barcode_class('code128')
     codigo = code_class(datos, writer=ImageWriter())
 
-    ruta_completa = os.path.join(carpeta, f"{nombre_archivo}.png")
+    ruta_completa = os.path.join(carpeta, nombre_archivo)
     codigo.save(ruta_completa)
 
     print(f"Código generado: {ruta_completa}")

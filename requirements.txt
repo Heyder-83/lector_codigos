@@ -2,3 +2,4 @@ python-barcode
 Pillow
 opencv-python
 pyzbar
+flask
