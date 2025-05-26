@@ -1,1 +1,14 @@
-import json
+[
+    {
+        "id": 1,
+        "nombre": "Leche",
+        "precio": 4200.0,
+        "codigo": "000000000001"
+    },
+    {
+        "id": 2,
+        "nombre": "Docena de huevos AA",
+        "precio": 16000.0,
+        "codigo": "000000000002"
+    }
+]
