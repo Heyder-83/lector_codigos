@@ -1,5 +1,5 @@
 from reader.scan_input import escanear_codigo, buscar_producto
-from factura import generar_factura
+from facturas.factura import generar_factura
 
 def flujo_venta():
     productos_seleccionados = []

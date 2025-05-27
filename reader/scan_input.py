@@ -1,5 +1,5 @@
 import json
-from inventario.inventario import cargar_productos, guardar_productos, agregar_producto
+from inventario.inventario import cargar_productos, guardar_productos
 from generator.generate_barcode import generar_codigo
 from facturas.factura import generar_factura
 

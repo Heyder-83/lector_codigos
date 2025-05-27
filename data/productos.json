@@ -13,5 +13,20 @@
         "codigo": "7707202225059",
         "nombre": "Cepillo",
         "precio": 2000.0
+    },
+    {
+        "codigo": "7704987000246",
+        "nombre": "Iris",
+        "precio": 2000.0
+    },
+    {
+        "codigo": "7709990584998",
+        "nombre": "Tapper 330ml",
+        "precio": 1800.0
+    },
+    {
+        "codigo": "7702354956295",
+        "nombre": "Nutribela 15",
+        "precio": 1300.0
     }
 ]
