@@ -1,14 +1,17 @@
 [
     {
-        "id": 1,
-        "nombre": "Leche",
-        "precio": 4200.0,
-        "codigo": "000000000001"
+        "codigo": "7707277896512",
+        "nombre": "Esponja oro/plata",
+        "precio": 1500.0
     },
     {
-        "id": 2,
-        "nombre": "Docena de huevos AA",
-        "precio": 16000.0,
-        "codigo": "000000000002"
+        "codigo": "7709990468151",
+        "nombre": "Talco Powder",
+        "precio": 2000.0
+    },
+    {
+        "codigo": "7707202225059",
+        "nombre": "Cepillo",
+        "precio": 2000.0
     }
 ]

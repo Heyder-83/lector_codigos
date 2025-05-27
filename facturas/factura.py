@@ -11,9 +11,9 @@ def generar_factura(productos_seleccionados, carpeta='facturas_guardadas'):
     contenido = f"FACTURA - {fecha}"
     contenido += "-" * 40 + "\n"
     for p in productos_seleccionados:
-        contenido += f"{p['nombre']} - ${p['precio']}\n"
+        contenido += f"{p['nombre']} - ${p['precio']:.2f}\n"
     contenido += "-" * 40 + "\n"
-    contenido += f"TOTAL: ${total}\n"
+    contenido += f"TOTAL: ${total:.2f}\n"
 
     nombre_archivo = f"factura_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     ruta = os.path.join(carpeta, nombre_archivo)
@@ -21,5 +21,5 @@ def generar_factura(productos_seleccionados, carpeta='facturas_guardadas'):
     with open(ruta, "w", encoding='utf-8') as f:
         f.write(contenido)
 
-    
-    print(f"Factura generada: {ruta}")
+
+    print(f"\n Factura generada: {ruta}")
